@@ -105,7 +105,8 @@ exports.onCreateNode = ({ node, actions, getNode, createNodeId }, options) => {
     id: createNodeId(`DocsPage-${node.id}`),
     title: node.frontmatter.title || parent.name,
     updated: parent.modifiedTime,
-    path: path.join('/', basePath, parent.relativeDirectory, pageName),
+    path: `${basePath}${pageName}`,
+    // path.join('/', basePath, parent.relativeDirectory, pageName),
     parent: node.id,
     internal: {
       type: 'DocsPage',
