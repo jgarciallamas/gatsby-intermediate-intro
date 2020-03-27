@@ -8,6 +8,7 @@ import scope from '../scope';
 
 const Code = props => {
   const codeProps = preToCodeBlock(props);
+  // console.log({ codeProps });
 
   if (!codeProps) {
     return <pre {...props} />;
