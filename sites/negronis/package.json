@@ -9,10 +9,15 @@
   },
   "dependencies": {
     "@emotion/core": "^10.0.28",
+    "@jlengstorf/gatsby-theme-events": "^1.0.1",
     "@mdx-js/react": "^1.5.8",
     "@theme-ui/presets": "^0.3.0",
     "gatsby": "^2.15.28",
+    "gatsby-image": "^2.3.1",
     "gatsby-plugin-theme-ui": "^0.3.0",
+    "gatsby-source-filesystem": "^2.2.2",
+    "gatsby-theme-docs": "*",
+    "gatsby-transformer-cloudinary": "^0.3.1",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
     "theme-ui": "^0.3.1"
